@@ -1,0 +1,53 @@
+.group {
+    display: none;
+}
+
+.group a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+}
+
+.group a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.urban, .greyman, .outdoors, .cyberpunk {
+    height: 100vh;
+    background-color:#000000;
+    color: #FFFFFF;
+    background-size: 100% 100%;
+    font-family: monospace;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.urban:hover h1, .greyman:hover h1, .outdoors:hover h1, .cyberpunk:hover h1 {
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+}
+
+.urban:hover .group, .greyman:hover .group, .outdoors:hover .group, .cyberpunk:hover .group {
+    display: inline-block;
+}
+
+.urban:hover {
+    background-image: url("./images/urbanBG.png");
+}
+
+.greyman:hover {
+    background-image: url("./images/greymanBG.png");
+}
+
+.outdoors:hover {
+    background-image: url("./images/outdoorsBG.png");
+}
+
+.cyberpunk:hover {
+    background-image: url("./images/cyberpunkBG.png");
+}

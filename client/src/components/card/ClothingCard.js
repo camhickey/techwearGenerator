@@ -1,0 +1,16 @@
+import React from "react";
+
+
+export default function ClothingCard(props) {
+  return (
+      <div class="card rounded shadow-sm border-0">
+        <center>
+        <div class="card-body p-4"><img src={props.clothingImage} alt="" class="img-fluid" />
+          <h5 class="card-title"><a href={props.clothingLink} class="text-dark" target='_blank' rel="noopener noreferrer">{props.clothingName}</a></h5>
+          <p class="medium text-muted font-italic">{props.clothingPrice}</p>
+          <a class="btn btn-success" href={props.clothingLink} target='_blank' rel="noopener noreferrer">BUY NOW</a>
+        </div>
+        </center>
+      </div>
+  );
+}

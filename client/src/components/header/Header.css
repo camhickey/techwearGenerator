@@ -1,0 +1,21 @@
+.navigation {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: monospace;
+}
+
+.navigation .nav-link {
+    color: #FFFFFF;
+}
+
+.navigation .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navigation .dropdown-menu {
+    background-color: #000000;
+}
+
+.navigation .dropdown-item {
+    color: #FFFFFF;
+}
