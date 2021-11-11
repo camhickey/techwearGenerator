@@ -7,7 +7,7 @@ const DisplayTechwear = (props) => {
   const getTechwear = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/techwear/" +
+        "https://cam.hick.dev/api/techwear/" +
           props.color +
           "/" +
           props.techwearStyle +
