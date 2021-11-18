@@ -37,17 +37,17 @@
 }
 
 .urban:hover {
-    background-image: url("./images/urbanBG.jpg");
+    background-image: url("./images/urbanBG.webp");
 }
 
 .greyman:hover {
-    background-image: url("./images/greymanBG.jpg");
+    background-image: url("./images/greymanBG.webp");
 }
 
 .outdoors:hover {
-    background-image: url("./images/outdoorsBG.jpg");
+    background-image: url("./images/outdoorsBG.webp");
 }
 
 .cyberpunk:hover {
-    background-image: url("./images/cyberpunkBG.jpg");
+    background-image: url("./images/cyberpunkBG.webp");
 }
