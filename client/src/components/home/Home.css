@@ -21,10 +21,18 @@
     color: #FFFFFF;
     background-size: 100% 100%;
     font-family: monospace;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.urban:hover, .greyman:hover, .cyberpunk:hover, .outdoors:hover{
+    background-blend-mode: normal;
+}
+
+.urban:hover .group, .greyman:hover .group, .outdoors:hover .group, .cyberpunk:hover .group {
+    display: inline-block;
 }
 
 .urban:hover h1, .greyman:hover h1, .outdoors:hover h1, .cyberpunk:hover h1 {
@@ -32,22 +40,22 @@
     border: 1px solid #FFFFFF;
 }
 
-.urban:hover .group, .greyman:hover .group, .outdoors:hover .group, .cyberpunk:hover .group {
-    display: inline-block;
+.urban, .greyman, .cyberpunk, .outdoors {
+    background-blend-mode: darken;
 }
 
-.urban:hover {
+.urban {
     background-image: url("./images/urbanBG.webp");
 }
 
-.greyman:hover {
+.greyman {
     background-image: url("./images/greymanBG.webp");
 }
 
-.outdoors:hover {
-    background-image: url("./images/outdoorsBG.webp");
+.cyberpunk {
+    background-image: url("./images/cyberpunkBG.webp");
 }
 
-.cyberpunk:hover {
-    background-image: url("./images/cyberpunkBG.webp");
+.outdoors {
+    background-image: url("./images/outdoorsBG.webp");
 }
