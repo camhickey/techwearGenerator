@@ -7,8 +7,8 @@ const pool = require("./db");
 app.use(cors());
 app.use(express.json()); //req.body
 //LISTENING
-app.listen(5432, () => {
-  console.log("server has started on port 5432");
+app.listen(5000, () => {
+  console.log("server has started on port 5000");
 });
 
 //ROUTES
