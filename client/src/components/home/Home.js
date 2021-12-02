@@ -8,8 +8,10 @@ function ButtonGroup(props) {
       <center>
       <h1>{props.techwearStyle}</h1>
       <div className="group">
-        <a href={props.link} role="button">Get this style</a>
-        <a href={props.about} role="button">About this style</a>
+        <div class="btn-group" role="group" aria-label="Basic example">
+        <a class="btn" href={props.link} role="button">Get this style</a>
+        <a class="btn" href={props.about} role="button">About this style</a>
+        </div>
       </div>
       </center>
     </div>
