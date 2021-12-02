@@ -2,6 +2,10 @@
     display: none;
 }
 
+.group .btn {
+    border-radius: 0;
+}
+
 .group a {
     text-decoration: none;
     color: #FFFFFF;
