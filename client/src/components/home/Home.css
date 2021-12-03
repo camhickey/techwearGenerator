@@ -40,7 +40,7 @@
 }
 
 .urban:hover h1, .greyman:hover h1, .outdoors:hover h1, .cyberpunk:hover h1 {
-    background-color: red;
+    background-color: #000000;
     border: 1px solid #FFFFFF;
 }
 
