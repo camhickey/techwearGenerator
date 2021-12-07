@@ -6,8 +6,6 @@ import ConvertClothingCode from "../functions/ConvertClothingCode";
 import RenderCards from "../card/RenderCards";
 import Header from "../header/Header";
 
-import "./Styles.css"
-
 export default function Greyman() {
 
   const [headwearColor, setHeadwearColor] = useState("");

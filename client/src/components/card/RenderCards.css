@@ -1,16 +1,11 @@
-.outfit-modal {
-    font-family: "Lucida Console";
-    width: 100%;
-    height: 100%;
+.get-outfit .btn {
+  color: #FFFFFF;
+  background-color: #000000;
+  border-radius: 0px;
 }
 
-.outfit-modal .btn {
-    color: #FFFFFF;
-    background-color: #000000;
-    border: 1px solid #FFFFFF;
-    padding: 10px;
-}
-
-.outfit-modal .h5{
-    align-self: center;
-}
+.get-outfit .btn:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px #000000 solid;
+  }

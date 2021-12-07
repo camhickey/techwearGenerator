@@ -6,8 +6,6 @@ import ConvertClothingCode from "../functions/ConvertClothingCode";
 import RenderCards from "../card/RenderCards";
 import Header from "../header/Header";
 
-import "./Styles.css"
-
 export default function Urban() {
 
   const [headwearColor, setHeadwearColor] = useState("");
@@ -46,7 +44,7 @@ export default function Urban() {
         <center>
         <div class="row">
 
-          <div className="col-md-4 clothing-color-picker">
+          <div className="col-md-4">
           <ClothingColorPicker 
           heading={clothingColorChoice!=='' ? ConvertClothingCode(clothingColorChoice) : 'none selected'}
           colors={clothingColorList}
@@ -122,7 +120,7 @@ export default function Urban() {
           <RenderCards headwearColor={headwearColor} topColor={topColor} pantsColor={pantsColor} shoesColor={shoesColor} techwearStyle="urban" />
           </div>
           
-          <div className="col-md-4 skin-color-picker">
+          <div className="col-md-4">
           <SkinColorPicker
           heading = {skinColorChoice!=='' ? ConvertSkinCode(skinColorChoice) : 'none selected'}
           colors = {skinColorList}

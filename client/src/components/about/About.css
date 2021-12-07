@@ -5,7 +5,13 @@
     margin-bottom: 0px;
 }
 
+.about .lead, .desc {
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
 .about .btn {
+    border-radius: 0px;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
     padding: 10px;

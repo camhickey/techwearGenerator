@@ -19,3 +19,13 @@
 .navigation .dropdown-item {
     color: #FFFFFF;
 }
+
+.navigation .btn {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.navigation .btn:focus, .btn:active {
+    box-shadow:none !important;
+    outline: 0px !important;
+}
